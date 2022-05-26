@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<jsp:include page="/cart.jsp" /><br>
+<jsp:include page="/menu.jsp" /><br>
 <h3>現在のカートの中身</h3>
 
 <c:if test="${empty cart.items}">
